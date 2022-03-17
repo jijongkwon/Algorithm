@@ -21,7 +21,7 @@
     [[1931]](https://github.com/jijongkwon/Algorithm/blob/main/baekjoon/silver/silver2/silver2_1931.py)
     [[1965]](https://github.com/jijongkwon/Algorithm/blob/main/baekjoon/silver/silver2/silver2_1965.py)
     [[18870]](https://github.com/jijongkwon/Algorithm/blob/main/baekjoon/silver/silver2/silver2_18870.py)
-  - #### silver3
+  - ### silver3
     [[1463]](https://github.com/jijongkwon/Algorithm/blob/main/baekjoon/silver/silver3/_silver3_1463.py)
     [[1003]](https://github.com/jijongkwon/Algorithm/blob/main/baekjoon/silver/silver3/silver3_1003.py)
     [[1406]](https://github.com/jijongkwon/Algorithm/blob/main/baekjoon/silver/silver3/silver3_1406.py)
