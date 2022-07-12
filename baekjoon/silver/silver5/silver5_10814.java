@@ -27,7 +27,7 @@ public class silver5_10814 {
 			
 		});
 
-        for(int i = 0; i < N; i++){
+        for(int i = 0; i < N; i++){ // 출력
             System.out.println(arr[i][0] + " " + arr[i][1]);
         }
 
