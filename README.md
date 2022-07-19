@@ -43,6 +43,7 @@
     [[9656]](https://github.com/jijongkwon/Algorithm/blob/main/baekjoon/silver/silver4/silver4_9656.py)
     [[10828]](https://github.com/jijongkwon/Algorithm/blob/main/baekjoon/silver/silver4/silver4_10828.py)
     [[12789]](https://github.com/jijongkwon/Algorithm/blob/main/baekjoon/silver/silver4/silver4_12789.java)
+    [[10845]](https://github.com/jijongkwon/Algorithm/blob/main/baekjoon/silver/silver4/silver4_10845.java)
   - ### silver5
     [[1010]](https://github.com/jijongkwon/Algorithm/blob/main/baekjoon/silver/silver5/silver5_1010.py)
     [[1181]](https://github.com/jijongkwon/Algorithm/blob/main/baekjoon/silver/silver5/silver5_1181.py)
