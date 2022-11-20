@@ -18,4 +18,4 @@
 ### 🟨 GOLD
 ### gold 4
 
-[[gold_1027]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/gold/gold4/gold_1027/Gold_1027.java)
+[[gold_1027]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/gold/gold4/gold_1027)
