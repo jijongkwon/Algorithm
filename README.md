@@ -19,3 +19,9 @@
 ### gold 4
 
 [[gold_1027]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/gold/gold4/gold_1027)
+
+
+### ⬜️ SILVER
+### silver 2
+
+[[sliver_1012]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/silver/silver2/silver_1012)
