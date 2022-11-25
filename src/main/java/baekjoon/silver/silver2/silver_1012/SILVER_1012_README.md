@@ -1,5 +1,5 @@
 <h3 align="center"> 
-    📢 백준(유기농 배추) : https://www.acmicpc.net/problem/1012
+    📌 백준(유기농 배추) : https://www.acmicpc.net/problem/1012
 </h3>
 
 ## 🚀 문제

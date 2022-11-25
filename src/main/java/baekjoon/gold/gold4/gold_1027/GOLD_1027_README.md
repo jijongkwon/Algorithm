@@ -1,5 +1,5 @@
 <h3 align="center"> 
-    📢 백준(고층 건물) : https://www.acmicpc.net/problem/1027
+    📌 백준(고층 건물) : https://www.acmicpc.net/problem/1027
 </h3>
 
 <br>
