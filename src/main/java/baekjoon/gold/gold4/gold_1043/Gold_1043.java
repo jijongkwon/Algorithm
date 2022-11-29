@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
+//미완성
 public class Gold_1043 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
