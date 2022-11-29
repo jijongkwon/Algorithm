@@ -16,6 +16,9 @@
 
 ## BaekJoon
 ### 🟨 GOLD
+### gold 3
+[[gold_1238]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/gold/gold3/gold_1238)
+
 ### gold 4
 
 [[gold_1027]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/gold/gold4/gold_1027)
