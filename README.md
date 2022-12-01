@@ -28,6 +28,7 @@
 ### ⬜️ SILVER
 ### silver 1
 [[sliver_11286]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/silver/silver1/silver_11286)
+[[sliver_7562]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/silver/silver1/silver_7562)
 
 ### silver 2
 
