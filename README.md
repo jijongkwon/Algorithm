@@ -25,6 +25,7 @@
 
 ### gold 5
 [[gold_10026]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/gold/gold5/gold_10026)
+[[gold_10026]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/gold/gold5/gold_7569)
 
 ### ⬜️ SILVER
 ### silver 1
