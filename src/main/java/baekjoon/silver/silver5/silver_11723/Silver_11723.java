@@ -1,4 +1,4 @@
-package baekjoon.silver.silver5.silver11723;
+package baekjoon.silver.silver5.silver_11723;
 
 import java.io.BufferedReader;
 import java.io.IOException;
