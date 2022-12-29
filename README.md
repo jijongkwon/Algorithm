@@ -45,4 +45,4 @@
 [[silver_1620]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/silver/silver4/silver_1620)
 
 ### silver 5
-[[silver]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/silver/silver5/silver_11723)
+[[silver_11723]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/silver/silver5/silver_11723)
