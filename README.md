@@ -58,3 +58,4 @@
 
 ### level 2
 [[호텔대실]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%ED%98%B8%ED%85%94%EB%8C%80%EC%8B%A4)
+[[무인도여행]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EB%AC%B4%EC%9D%B8%EB%8F%84%EC%97%AC%ED%96%89)
