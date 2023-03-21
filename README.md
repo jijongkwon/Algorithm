@@ -58,7 +58,10 @@
 
 ### level 1
 [[실패율]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level1/%EC%8B%A4%ED%8C%A8%EC%9C%A8)
+[[신고결과받기]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level1/%EC%8B%A0%EA%B3%A0%EA%B2%B0%EA%B3%BC%EB%B0%9B%EA%B8%B0)
+[[개인정보수집유효기간]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level1/%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4%EC%88%98%EC%A7%91%EC%9C%A0%ED%9A%A8%EA%B8%B0%EA%B0%84)
 
 ### level 2
+[[덧칠하기]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EB%8D%A7%EC%B9%A0%ED%95%98%EA%B8%B0)
 [[호텔대실]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%ED%98%B8%ED%85%94%EB%8C%80%EC%8B%A4)
 [[무인도여행]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EB%AC%B4%EC%9D%B8%EB%8F%84%EC%97%AC%ED%96%89)
