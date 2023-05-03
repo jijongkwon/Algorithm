@@ -77,3 +77,5 @@
 [[기능개발]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EA%B8%B0%EB%8A%A5%EA%B0%9C%EB%B0%9C)
 [[카펫]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EC%B9%B4%ED%8E%AB)
 [[소수찾기]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EC%86%8C%EC%88%98%EC%B0%BE%EA%B8%B0)
+
+[[피로도]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%ED%94%BC%EB%A1%9C%EB%8F%84)
