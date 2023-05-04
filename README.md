@@ -81,3 +81,4 @@
 [[피로도]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%ED%94%BC%EB%A1%9C%EB%8F%84)
 [[전력망 둘로 나누기]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EC%A0%84%EB%A0%A5%EB%A7%9D%EB%91%98%EB%A1%9C%EB%82%98%EB%88%84%EA%B8%B0)
 [[타켓넘버]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%ED%83%80%EC%BC%93%EB%84%98%EB%B2%84)
+[[게임맵 최단거리]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EA%B2%8C%EC%9E%84%EB%A7%B5%EC%B5%9C%EB%8B%A8%EA%B1%B0%EB%A6%AC)
