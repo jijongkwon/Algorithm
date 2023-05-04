@@ -79,3 +79,5 @@
 [[소수찾기]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EC%86%8C%EC%88%98%EC%B0%BE%EA%B8%B0)
 
 [[피로도]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%ED%94%BC%EB%A1%9C%EB%8F%84)
+[[전력망 둘로 나누기]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EC%A0%84%EB%A0%A5%EB%A7%9D%EB%91%98%EB%A1%9C%EB%82%98%EB%88%84%EA%B8%B0)
+[[타켓넘버]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%ED%83%80%EC%BC%93%EB%84%98%EB%B2%84)
