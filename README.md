@@ -1,4 +1,4 @@
-# Algorithm
+# 🧮 Algorithm
 
 백준 : https://www.acmicpc.net/
 
@@ -10,11 +10,12 @@
 ---
 
 ## 📖 Language
-- java
+<img src="https://img.shields.io/badge/Java-1572B6?style=for-the-badge&logo=java&logoColor=white">
+
 
 ---
 
-## BaekJoon
+## <img src="imgFile/baekjoon.png" width="50" height="20"> BaekJoon
 ### 🟨 GOLD
 ### gold 3
 [[gold_1238]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/gold/gold3/gold_1238)
@@ -54,7 +55,7 @@
 
 ---
 
-## Programmers
+## <img src="imgFile/programmers.png" width="30" height="30"> Programmers
 
 ### level 1
 [[실패율]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level1/%EC%8B%A4%ED%8C%A8%EC%9C%A8)
@@ -83,7 +84,9 @@
 [[타켓넘버]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%ED%83%80%EC%BC%93%EB%84%98%EB%B2%84)
 [[게임맵 최단거리]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EA%B2%8C%EC%9E%84%EB%A7%B5%EC%B5%9C%EB%8B%A8%EA%B1%B0%EB%A6%AC)
 
-## softear
+---
+
+## <img src="imgFile/softear.png" width="55" height="20"> Softear
 
 ### level2
 [[금고털이]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/softeer/level2/%EA%B8%88%EA%B3%A0%ED%84%B8%EC%9D%B4)
