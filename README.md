@@ -82,3 +82,9 @@
 [[전력망 둘로 나누기]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EC%A0%84%EB%A0%A5%EB%A7%9D%EB%91%98%EB%A1%9C%EB%82%98%EB%88%84%EA%B8%B0)
 [[타켓넘버]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%ED%83%80%EC%BC%93%EB%84%98%EB%B2%84)
 [[게임맵 최단거리]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EA%B2%8C%EC%9E%84%EB%A7%B5%EC%B5%9C%EB%8B%A8%EA%B1%B0%EB%A6%AC)
+
+## softear
+
+### level2
+[[금고털이]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/softeer/level2/%EA%B8%88%EA%B3%A0%ED%84%B8%EC%9D%B4)
+[[8단변속기]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/softeer/level2/%ED%8C%94%EB%8B%A8%EB%B3%80%EC%86%8D%EA%B8%B0)
