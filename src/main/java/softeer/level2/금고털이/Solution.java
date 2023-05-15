@@ -1,4 +1,4 @@
-package softeer.level2;
+package softeer.level2.금고털이;
 
 import java.util.*;
 import java.io.*;
