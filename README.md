@@ -101,3 +101,4 @@
 ### level3
 [[출퇴근길]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/softeer/level3/%EC%B6%9C%ED%87%B4%EA%B7%BC%EA%B8%B8)
 [[사물인식 최소면적 산출 프로그램]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/softeer/level3/%EC%82%AC%EB%AC%BC%EC%9D%B8%EC%8B%9D%EC%B5%9C%EC%86%8C%EB%A9%B4%EC%A0%81%EC%82%B0%EC%B6%9C%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%A8)
+[[성적평가]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/softeer/level3/%EC%84%B1%EC%A0%81%ED%8F%89%EA%B0%80)
