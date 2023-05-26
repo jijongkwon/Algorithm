@@ -86,7 +86,7 @@
 
 ---
 
-## <img src="imgFile/softear.png" width="55" height="20"> Softear
+## <img src="imgFile/softear.png" width="55" height="20"> Softeer
 
 ### level2
 [[금고털이]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/softeer/level2/%EA%B8%88%EA%B3%A0%ED%84%B8%EC%9D%B4)
