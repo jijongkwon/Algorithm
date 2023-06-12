@@ -27,20 +27,24 @@
 
 ### gold 5
 [[gold_10026]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/gold/gold5/gold_10026)
-[[gold_10026]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/gold/gold5/gold_7569)
+[[gold_7569]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/gold/gold5/gold_7569)
 [[gold_1107]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/gold/gold5/gold_1107)
+[[gold_7576]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/gold/gold5/gold_7576)
 
 ### ⬜️ SILVER
 ### silver 1
-[[sliver_11403]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/silver/silver1/silver_11403)
-[[sliver_1992]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/silver/silver1/silver_1992)
-[[sliver_11286]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/silver/silver1/silver_11286)
-[[sliver_7562]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/silver/silver1/silver_7562)
 [[sliver_1074]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/silver/silver1/silver_1074)
+[[sliver_1697]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/silver/silver1/silver_1697)
+[[sliver_1713]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/silver/silver1/silver_1713)
+[[sliver_1992]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/silver/silver1/silver_1992)
 [[sliver_2468]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/silver/silver1/silver_2468)
+[[sliver_7562]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/silver/silver1/silver_7562)
+[[sliver_11286]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/silver/silver1/silver_11286)
+[[sliver_11403]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/silver/silver1/silver_11403)
 
 ### silver 2
 [[sliver_1012]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/silver/silver2/silver_1012)
+[[silver_11724]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/silver/silver2/silver_11724)
 
 ### silver 3
 [[sliver_15649]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/silver/silver2/silver_15659)
