@@ -91,6 +91,7 @@
 [[혼자놀기달인]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%ED%98%BC%EC%9E%90%EB%86%80%EA%B8%B0%EB%8B%AC%EC%9D%B8)
 [[연속된 부분 수열의 합]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EC%97%B0%EC%86%8D%EB%90%9C%EB%B6%80%EB%B6%84%EC%88%98%EC%97%B4%ED%95%A9)
 [[과제 진행하기]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EA%B3%BC%EC%A0%9C%EC%A7%84%ED%96%89%ED%95%98%EA%B8%B0)
+[[광물 캐기]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EA%B4%91%EB%AC%BC%EC%BA%90%EA%B8%B0)
 
 ---
 
