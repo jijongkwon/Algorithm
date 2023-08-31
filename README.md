@@ -95,6 +95,7 @@
 [[과제 진행하기]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EA%B3%BC%EC%A0%9C%EC%A7%84%ED%96%89%ED%95%98%EA%B8%B0)
 [[광물 캐기]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EA%B4%91%EB%AC%BC%EC%BA%90%EA%B8%B0)
 [[숫자 변환하기]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EC%88%AB%EC%9E%90%EB%B3%80%ED%99%98%ED%95%98%EA%B8%B0)
+[[택배 배달과 수거하기]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%ED%83%9D%EB%B0%B0%EB%B0%B0%EB%8B%AC%EA%B3%BC%EC%88%98%EA%B1%B0%ED%95%98%EA%B8%B0)
 
 ---
 
