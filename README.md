@@ -99,8 +99,9 @@
 [[숫자 변환하기]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EC%88%AB%EC%9E%90%EB%B3%80%ED%99%98%ED%95%98%EA%B8%B0)
 [[택배 배달과 수거하기]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%ED%83%9D%EB%B0%B0%EB%B0%B0%EB%8B%AC%EA%B3%BC%EC%88%98%EA%B1%B0%ED%95%98%EA%B8%B0)
 
-
 [[귤 고르기]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EA%B7%A4%EA%B3%A0%EB%A5%B4%EA%B8%B0)
+[[이모티콘 할인행사]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EC%9D%B4%EB%AA%A8%ED%8B%B0%EC%BD%98%ED%95%A0%EC%9D%B8%ED%96%89%EC%82%AC)
+
 ---
 
 ## <img src="imgFile/softear.png" width="55" height="20"> Softeer
