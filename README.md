@@ -103,6 +103,7 @@
 [[이모티콘 할인행사]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EC%9D%B4%EB%AA%A8%ED%8B%B0%EC%BD%98%ED%95%A0%EC%9D%B8%ED%96%89%EC%82%AC)
 [[테이블 해시 함수]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%ED%85%8C%EC%9D%B4%EB%B8%94%ED%95%B4%EC%8B%9C%ED%95%A8%EC%88%98)
 [[우박수열 정적분]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EC%9A%B0%EB%B0%95%EC%88%98%EC%97%B4%EC%A0%95%EC%A0%81%EB%B6%84)
+[[점 찍기]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EC%A0%90%EC%B0%8D%EA%B8%B0)
 
 ---
 
