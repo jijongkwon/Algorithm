@@ -105,6 +105,7 @@
 [[우박수열 정적분]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EC%9A%B0%EB%B0%95%EC%88%98%EC%97%B4%EC%A0%95%EC%A0%81%EB%B6%84)
 [[점 찍기]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EC%A0%90%EC%B0%8D%EA%B8%B0)
 [[양궁대회]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EC%96%91%EA%B6%81%EB%8C%80%ED%9A%8C)
+[[택배상자]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%ED%83%9D%EB%B0%B0%EC%83%81%EC%9E%90)
 
 ---
 
