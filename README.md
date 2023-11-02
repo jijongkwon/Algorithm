@@ -25,6 +25,7 @@
 [[gold_9663]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/gold/gold4/gold_9663)
 [[gold_1043]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/gold/gold4/gold_1043)
 [[gold_2573]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/gold/gold4/gold_2573)
+[[gold_1339]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/gold/gold4/gold_1339)
 
 ### gold 5
 [[gold_10026]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/gold/gold5/gold_10026)
