@@ -109,6 +109,7 @@
 [[점 찍기]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EC%A0%90%EC%B0%8D%EA%B8%B0)
 [[양궁대회]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EC%96%91%EA%B6%81%EB%8C%80%ED%9A%8C)
 [[택배상자]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%ED%83%9D%EB%B0%B0%EC%83%81%EC%9E%90)
+[[k진수에서 소수 개수 구하기]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/k%EC%A7%84%EC%88%98%EC%97%90%EC%84%9C%EC%86%8C%EC%88%98%EA%B0%9C%EC%88%98%EA%B5%AC%ED%95%98%EA%B8%B0)
 
 ---
 
