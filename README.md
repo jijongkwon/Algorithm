@@ -111,6 +111,8 @@
 [[택배상자]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%ED%83%9D%EB%B0%B0%EC%83%81%EC%9E%90)
 [[k진수에서 소수 개수 구하기]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/k%EC%A7%84%EC%88%98%EC%97%90%EC%84%9C%EC%86%8C%EC%88%98%EA%B0%9C%EC%88%98%EA%B5%AC%ED%95%98%EA%B8%B0)
 
+[[할인행사]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%ED%95%A0%EC%9D%B8%ED%96%89%EC%82%AC)
+
 ---
 
 ## <img src="imgFile/softear.png" width="55" height="20"> Softeer
