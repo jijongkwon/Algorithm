@@ -113,6 +113,7 @@
 
 [[할인행사]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%ED%95%A0%EC%9D%B8%ED%96%89%EC%82%AC)
 [[연속 부분 수열 합의 개수]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/%EC%97%B0%EC%86%8D%EB%B6%80%EB%B6%84%EC%88%98%EC%97%B4%ED%95%A9%EC%9D%98%EA%B0%9C%EC%88%98)
+[[n^2 배열 자르기]](https://github.com/jijongkwon/Algorithm/tree/main/src/main/java/programmers/level2/n2%EB%B0%B0%EC%97%B4%EC%9E%90%EB%A5%B4%EA%B8%B0)
 
 ---
 
