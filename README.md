@@ -50,6 +50,7 @@
 [[sliver_11403]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/silver/silver1/silver_11403)
 [[silver_2583]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/silver/silver1/silver_2583)
 [[silver_11729]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/silver/silver1/silver_11729)
+[[sliver_14889]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/silver/silver1/silver_14889)
 
 ### silver 2
 [[sliver_1012]](https://github.com/jijongkwon/Algorithm/blob/main/src/main/java/baekjoon/silver/silver2/silver_1012)
