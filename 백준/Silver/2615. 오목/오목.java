@@ -4,7 +4,6 @@ import java.util.Queue;
 import java.util.LinkedList;
 
 public class Main {
-    static boolean[][] visited = new boolean[19][19];
     static char[][] map = new char[19][19];
     static int[] dx = {1, 0, 1, -1};
     static int[] dy = {1, 1, 0, 1};
