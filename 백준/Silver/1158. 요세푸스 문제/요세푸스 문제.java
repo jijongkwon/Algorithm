@@ -5,11 +5,13 @@ import java.io.*;
  * @author 지종권
  * @date 2024. 2. 5.
  * @link https://www.acmicpc.net/problem/1158
- * @keyword_solution   
+ * @keyword_solution 
+ * for(int i = 0; i < k - 1; i++)
+ * k - 1 번째까지 앞의 문자, 뒤에 추가하기
  * @input 
  * @output   
- * @time_complex  
- * @perf 
+ * @time_complex  n ^ 2
+ * @perf 298640kb	688ms
  */
 public class Main {
 
