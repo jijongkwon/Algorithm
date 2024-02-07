@@ -1,4 +1,3 @@
-
 import java.util.*;
 import java.io.*;
 
@@ -11,7 +10,7 @@ import java.io.*;
  * @input 
  * @output   
  * @time_complex  
- * @perf 
+ * @perf 65476kb	760ms
  */
 public class Main {
 	static int n, m, r, num;
