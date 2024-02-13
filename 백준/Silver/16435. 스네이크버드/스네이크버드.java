@@ -11,7 +11,7 @@ import java.io.*;
  * @input 
  * @output   
  * @time_complex  
- * @perf 
+ * @perf 21204kb	284ms
  */
 public class Main {
 	public static void main(String[] args) {
