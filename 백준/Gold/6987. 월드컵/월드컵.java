@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
 public class Main {
 	static final int MAX_TEAM_COUNT = 6;
 	static int[][] matches;
-	static boolean isEndGame = false;
+	static boolean isEndGame;
 	
 	public static void main(String args[]) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -39,6 +39,7 @@ public class Main {
 			st = new StringTokenizer(br.readLine());
 			int[][] worldCup = new int[3][MAX_TEAM_COUNT]; // 인덱스를 뒤집는게 나은가? 열 : 승/무/패, 행 : A,B,C,D,E,F팀 
 			boolean isPossible = true;
+            isEndGame = false;
 			
 			// 모든 경기 결과 입력받기 
 			for(int i = 0; i < MAX_TEAM_COUNT; i++) {
@@ -72,7 +73,6 @@ public class Main {
 			}
 			
 			sb.append(" ");
-			isEndGame = false;
 		}
 		
 		System.out.print(sb.toString());
