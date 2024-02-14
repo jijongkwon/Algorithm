@@ -10,7 +10,7 @@ import java.util.StringTokenizer;
 public class Main {
 	static final int MAX_TEAM_COUNT = 6;
 	static int[][] matches;
-	static boolean isEndGame;
+	static boolean isEndGame = false;
 	
 	public static void main(String args[]) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -35,11 +35,11 @@ public class Main {
 			}
 		}
 		
-		while(tc --> 0) {
+		for(int j = 0 ; j < 4; j++)
+		{
 			st = new StringTokenizer(br.readLine());
-			int[][] worldCup = new int[3][MAX_TEAM_COUNT]; // 인덱스를 뒤집는게 나은가? 열 : 승/무/패, 행 : A,B,C,D,E,F팀 
+			int[][] worldCup = new int[MAX_TEAM_COUNT][3]; // 인덱스를 뒤집는게 나은가? 열 : 승/무/패, 행 : A,B,C,D,E,F팀 
 			boolean isPossible = true;
-            isEndGame = false;
 			
 			// 모든 경기 결과 입력받기 
 			for(int i = 0; i < MAX_TEAM_COUNT; i++) {
@@ -47,9 +47,9 @@ public class Main {
 				int draw = Integer.valueOf(st.nextToken());
 				int lose = Integer.valueOf(st.nextToken());
 				
-				worldCup[0][i] = win;
-				worldCup[1][i] = draw;
-				worldCup[2][i] = lose;
+				worldCup[i][0] = win;
+				worldCup[i][1] = draw;
+				worldCup[i][2] = lose;
 				
 				// 한 팀당 5번을 경기해야 한다.
 				if(win + draw + lose != 5) {
@@ -73,6 +73,7 @@ public class Main {
 			}
 			
 			sb.append(" ");
+			isEndGame = false;
 		}
 		
 		System.out.print(sb.toString());
@@ -94,28 +95,28 @@ public class Main {
 		int enemyTeam = matches[matchCount][1];
 		
 		// 승 -> 패
-		if(worldCup[0][myTeam] > 0 && worldCup[2][enemyTeam] > 0) {
-			worldCup[0][myTeam]--;
-			worldCup[2][enemyTeam]--;
+		if(worldCup[myTeam][0] > 0 && worldCup[enemyTeam][2] > 0) {
+			worldCup[myTeam][0]--;
+			worldCup[enemyTeam][2]--;
 			backTracking(worldCup, matchCount + 1, size);
-			worldCup[0][myTeam]++;
-			worldCup[2][enemyTeam]++;
+			worldCup[myTeam][0]++;
+			worldCup[enemyTeam][2]++;
 		}
 		// 무 -> 무
-		if(worldCup[1][myTeam] > 0 && worldCup[1][enemyTeam] > 0) {
-			worldCup[1][myTeam]--;
-			worldCup[1][enemyTeam]--;
+		if(worldCup[myTeam][1] > 0 && worldCup[enemyTeam][1] > 0) {
+			worldCup[myTeam][1]--;
+			worldCup[enemyTeam][1]--;
 			backTracking(worldCup, matchCount + 1, size);
-			worldCup[1][myTeam]++;
-			worldCup[1][enemyTeam]++;
+			worldCup[myTeam][1]++;
+			worldCup[enemyTeam][1]++;
 		}
 		// 패 -> 승
-		if(worldCup[2][myTeam] > 0 && worldCup[0][enemyTeam] > 0) {
-			worldCup[2][myTeam]--;
-			worldCup[0][enemyTeam]--;
+		if(worldCup[myTeam][2] > 0 && worldCup[enemyTeam][0] > 0) {
+			worldCup[myTeam][2]--;
+			worldCup[enemyTeam][0]--;
 			backTracking(worldCup, matchCount + 1, size);
-			worldCup[2][myTeam]++;
-			worldCup[0][enemyTeam]++;
+			worldCup[myTeam][2]++;
+			worldCup[enemyTeam][0]++;
 		}
 	}
 }
