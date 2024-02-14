@@ -3,10 +3,19 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-// 월드컵
-// 백트래킹
-// 브루트 포스 
-// 시간복잡도 : O(3^15) -> 한 경기 당 최대 3가지 결과를 얻음. 총 15경기를 하므로.
+/**
+ * @author 지종권
+ * @date 2024. 2. 14.
+ * @link https://www.acmicpc.net/problem/6987
+ * @keyword_solution 
+ * 1. 승리 횟수 == 패배 횟수
+ * 2. 국가별 한 번씩 5번의 경기를 치룸
+ * 3. 재귀를 통해 확인
+ * @input 
+ * @output   
+ * @time_complex  
+ * @perf 
+ */
 public class Main {
 	static final int MAX_TEAM_COUNT = 6;
 	static int[][] matches;
@@ -17,14 +26,11 @@ public class Main {
 		StringTokenizer st;
 		StringBuilder sb = new StringBuilder();
 		
-		int tc = 4;
-		// 최대 경기 가능한 경우의 수 구하기
 		int size = 0;
 		for(int i = 1; i < MAX_TEAM_COUNT; i++) {
 			size += i;
 		}
 		
-		// 경기 매치 별 팀 별도 저장 
 		matches = new int[size][2];
 		int index = 0;
 		for(int i = 0; i < MAX_TEAM_COUNT - 1; i++) {
@@ -38,10 +44,9 @@ public class Main {
 		for(int j = 0 ; j < 4; j++)
 		{
 			st = new StringTokenizer(br.readLine());
-			int[][] worldCup = new int[MAX_TEAM_COUNT][3]; // 인덱스를 뒤집는게 나은가? 열 : 승/무/패, 행 : A,B,C,D,E,F팀 
+			int[][] worldCup = new int[MAX_TEAM_COUNT][3];
 			boolean isPossible = true;
 			
-			// 모든 경기 결과 입력받기 
 			for(int i = 0; i < MAX_TEAM_COUNT; i++) {
 				int win = Integer.valueOf(st.nextToken());
 				int draw = Integer.valueOf(st.nextToken());
@@ -51,14 +56,12 @@ public class Main {
 				worldCup[i][1] = draw;
 				worldCup[i][2] = lose;
 				
-				// 한 팀당 5번을 경기해야 한다.
 				if(win + draw + lose != 5) {
 					isPossible = false;
 					break;
 				}
 			}
 			
-			// 모든 팀의 경기 수가 조건에 일치하는 경우 경기 결과 비교 진행 
 			if(isPossible) {
 				backTracking(worldCup, 0, size);
 				if(isEndGame) {
@@ -79,13 +82,11 @@ public class Main {
 		System.out.print(sb.toString());
 	}
 	
-	// 백트래킹 함수 
 	static void backTracking(int[][] worldCup, int matchCount, int size) {
 		if(isEndGame) {
 			return;
 		}
 		
-		// 모든 게임을 수행할 수 있다면 이 월드컵은 가능하다.
 		if(matchCount == size) {
 			isEndGame = true;
 			return;
@@ -94,7 +95,6 @@ public class Main {
 		int myTeam = matches[matchCount][0];
 		int enemyTeam = matches[matchCount][1];
 		
-		// 승 -> 패
 		if(worldCup[myTeam][0] > 0 && worldCup[enemyTeam][2] > 0) {
 			worldCup[myTeam][0]--;
 			worldCup[enemyTeam][2]--;
@@ -102,7 +102,7 @@ public class Main {
 			worldCup[myTeam][0]++;
 			worldCup[enemyTeam][2]++;
 		}
-		// 무 -> 무
+
 		if(worldCup[myTeam][1] > 0 && worldCup[enemyTeam][1] > 0) {
 			worldCup[myTeam][1]--;
 			worldCup[enemyTeam][1]--;
@@ -110,7 +110,7 @@ public class Main {
 			worldCup[myTeam][1]++;
 			worldCup[enemyTeam][1]++;
 		}
-		// 패 -> 승
+
 		if(worldCup[myTeam][2] > 0 && worldCup[enemyTeam][0] > 0) {
 			worldCup[myTeam][2]--;
 			worldCup[enemyTeam][0]--;
