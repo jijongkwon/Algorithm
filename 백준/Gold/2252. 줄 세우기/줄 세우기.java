@@ -21,10 +21,11 @@ public class Main {
 	static int[] degree;
 	static StringBuilder sb = new StringBuilder();
 	
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-		n = sc.nextInt();
-		m = sc.nextInt();
+	public static void main(String[] args) throws IOException{
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		StringTokenizer st = new StringTokenizer(br.readLine());
+		n = Integer.parseInt(st.nextToken());
+		m = Integer.parseInt(st.nextToken());
 		
 		graph = new ArrayList[n + 1];
 		degree = new int[n + 1];
@@ -34,8 +35,9 @@ public class Main {
 		
 		
 		for(int i = 0 ; i < m; i++) {
-			int parent = sc.nextInt();
-			int child = sc.nextInt();
+			st = new StringTokenizer(br.readLine());
+			int parent = Integer.parseInt(st.nextToken());
+			int child = Integer.parseInt(st.nextToken());
 			
 			graph[parent].add(child);
 			degree[child]++;
