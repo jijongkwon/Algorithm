@@ -18,7 +18,7 @@ import java.io.*;
 public class Main {
 	static int beltNum, sushiNum, sequenceNum, couponNum;
 	static int[] belts;
-	static int[] check;
+	static int[] window;
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -37,62 +37,38 @@ public class Main {
 		}
 
 		// init
-		check = new int[sushiNum + 1];
+		window = new int[sushiNum + 1];
 
 		// slide window
 		System.out.println(slide());
 	}
 
 	static int slide() {
-		// number of type
-		int inSlide = 0;
-		int total = 0;
-		for (int i = 0; i < sequenceNum; i++) {
-			if (check[belts[i]] == 0) {
-				inSlide++;
-			}
-			check[belts[i]]++;
-		}
-
-		// number of final total
-		total = inSlide;
-
-		for (int i = 1; i < beltNum; i++) {
-			// Coupons can be applied
-			if (total <= inSlide) {
-				if (check[couponNum] == 0) {
-					total = inSlide + 1;
-				} else {
-					total = inSlide;
-				}
-			}
-
-			// left window
-			check[belts[i - 1]]--;
-
-			// no more type
-			if (check[belts[i - 1]] == 0) {
-				inSlide--;
-			}
-
-			// right window
-			if (check[belts[(i + sequenceNum - 1) % beltNum]] == 0) {
-				inSlide++;
-			}
-
-			// check visited sushi
-			check[belts[(i + sequenceNum - 1) % beltNum]]++;
-		}
-
-		// Coupons can be applied
-		if (total <= inSlide) {
-			if (check[couponNum] == 0) {
-				total = inSlide + 1;
-			} else {
-				total = inSlide;
+		int count = 0;
+		
+		for(int i = 0; i < sequenceNum; i++) {
+			if(window[belts[i]]++ == 0) {
+				count++;
 			}
 		}
+		
+		int max = count;
 
-		return total;
+		for(int i = 0; i < beltNum; i++) {
+			// left
+			if(--window[belts[i]] == 0) {
+				count--;
+			}
+			
+			// right
+			if(window[belts[(i + sequenceNum)  % beltNum]]++ == 0) {
+				count++;
+			}
+			
+			// find max
+			max = Math.max(max, count + (window[couponNum] == 0 ? 1 : 0));
+		}
+		
+		return max;
 	}
 }
