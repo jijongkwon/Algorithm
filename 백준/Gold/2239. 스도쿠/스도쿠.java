@@ -71,9 +71,12 @@ public class Main {
 			
 			map[location[0]][location[1]] = value;
 			dfs(depth + 1);
-			if(!complete) {
-				map[location[0]][location[1]] = 0;
-			}
+			
+            if(complete){
+                break;
+            }
+            
+			map[location[0]][location[1]] = 0;
 		}
 	}
 	
