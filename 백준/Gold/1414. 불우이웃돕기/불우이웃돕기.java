@@ -55,17 +55,6 @@ public class Main {
 
         for (int i = 0; i < n; i++) {
             char[] lengths = br.readLine().toCharArray();
-            if(n == 1){
-                int number = alphaToNum.get(lengths[0]);
-                if(number == Integer.MAX_VALUE){
-                    System.out.println(0);
-                    return;
-                }
-                else{
-                    System.out.println(number);
-                }
-                return;
-            }
             for (int j = 0; j < n; j++) {
                 int length = alphaToNum.get(lengths[j]);
 
@@ -77,17 +66,10 @@ public class Main {
             }
         }
 
-//        for (int i = 0; i < n; i++) {
-//            for (int j = 0; j < computer[i].size(); j++) {
-//                System.out.print(computer[i].get(j).to + ", " + computer[i].get(j).length);
-//            }
-//            System.out.println();
-//        }
-
         // prim
         int minLength = prim();
 
-        if(minLength == 0){
+        if(minLength == Integer.MAX_VALUE){
             System.out.println(-1);
         }
         else{
@@ -124,7 +106,7 @@ public class Main {
             }
         }
 
-        return 0;
+        return Integer.MAX_VALUE;
     }
 
     static class Edge implements Comparable<Edge> {
