@@ -65,8 +65,10 @@ public class Main {
         }
 
         // 종료 조건
-        if(depth == limit && slidingLadder(map)){
-            answer = limit;
+        if(depth == limit){
+            if(slidingLadder(map)){
+                answer = limit;
+            }
             return;
         }
 
