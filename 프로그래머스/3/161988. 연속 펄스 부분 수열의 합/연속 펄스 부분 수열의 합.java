@@ -1,39 +1,38 @@
+import java.util.*;
+
 /*
-    펄스수열: 1과 -1이 번갈아서 나오는 수열
+    번갈아가며 나오는 수열
+    
+    return 연속 펄스 부분 수열의 합 중 가장 큰 것
+    
+    제한
+    500,000
+    200,000
+    
+    dp..?
     
     풀이
-    dp
+    1. -1, 1 배열, 1, -1 배열 각각 dp
+    2. max
+    
 */
 class Solution {
     public long solution(int[] sequence) {
-        long answer;
+        long answer = Long.MIN_VALUE;
+        long dp1 = 0, dp2 = 0;
         
-        int size = sequence.length;
-        int[] a = new int[size];
-        int[] b = new int[size];
-        int n = 1;
-        
-        for(int i = 0; i<size; i++) {
-            a[i] = sequence[i]*n;
-            n *= -1;
-            b[i] = sequence[i]*n;
+        for (int i = 0; i < sequence.length; i++) {
+            long pulse = (i % 2 == 0) ? 1 : -1;
+            
+            long val1 = sequence[i] * pulse;   
+            long val2 = sequence[i] * (-pulse);
+            
+            dp1 = Math.max(val1, dp1 + val1);
+            dp2 = Math.max(val2, dp2 + val2);
+            
+            answer = Math.max(answer, Math.max(dp1, dp2));
         }
         
-        long[] dpA = new long[size];
-        long[] dpB = new long[size];
-        
-        dpA[0] = a[0];
-        dpB[0] = b[0];
-        answer = Math.max(dpA[0], dpB[0]);
-        
-        for(int i = 1; i<size; i++) {
-            dpA[i] = Math.max(dpA[i-1] + a[i], a[i]);
-            dpB[i] = Math.max(dpB[i-1] + b[i], b[i]);
-    
-            long max = Math.max(dpA[i], dpB[i]);
-            answer = Math.max(answer, max);
-        }
-
         return answer;
     }
 }
